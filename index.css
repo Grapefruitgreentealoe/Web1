@@ -1,0 +1,13 @@
+body{
+  background-color: peru;
+}
+.btn{
+  cursor:pointer;
+/*버튼을 누르면 h1부분의 내용의 커서가 pointer~~ body부분의 모든것에 해당.*/
+}
+
+h1{
+color : #4cd137;
+transition: color 1.5s ease-in-out;
+}.clicked{ /*clicked라는 class안에 변화될값 넣음.*/
+  color : #273c75;}
